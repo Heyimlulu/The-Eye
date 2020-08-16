@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>The Eye</title>
     <link rel="icon" href="img/favicon.png">
 </head>
 
-<body style="background-color: #000000">
+<link rel="stylesheet" href="css/style.css">
+
+<body>
 
 <div id="overlay"></div>
 
@@ -14,33 +17,13 @@
     <img src="img/eye.gif">
 </div>
 
-<style>
-    .centermiddle {
-        text-align: center;
-        vertical-align: middle;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    #overlay {
-        position: fixed; /* Sit on top of the page content */
-        display: none; /* Hidden by default */
-        width: 100%; /* Full width (cover the whole page) */
-        height: 100%; /* Full height (cover the whole page) */
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-        z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-        cursor: pointer; /* Add a pointer on hover */
-    }
-</style>
+<div style="display: none">
+    <img id="secret" src="img/pigeon.jpg">
+</div>
 
-<script>
-    document.getElementById("overlay").style.display = "block";
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/secret.js"></script>
+<script src="js/overlay.js"></script>
 
 </body>
 </html>
