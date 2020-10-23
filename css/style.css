@@ -30,7 +30,7 @@
     right: 0;
     bottom: 0;
     background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
 }
 
 body {
@@ -84,15 +84,19 @@ body {
 
 .modal-content p{
     font-family: 'Source Code Pro', monospace;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 1rem 1rem 1rem 1rem;
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
 
 .modal-content a {
-    color: purple;
+    color: dodgerblue;
     text-decoration: none;
+}
+
+.modal-content a:hover {
+    color: lightskyblue;
 }
 
 .modal-content img {
@@ -105,5 +109,5 @@ body {
 }
 
 .modal-content .seconds {
-    color: purple;
+    color: dodgerblue;
 }
