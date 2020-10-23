@@ -3,27 +3,64 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="The eye | by Heyimlulu">
+    <meta name="keywords" content="HTML, CSS, JavaScript, The Eye, Heyimlulu, Fun">
+    <meta name="author" content="Heyimlulu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Eye</title>
     <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<link rel="stylesheet" href="css/style.css">
+<!--
+
+           _ . - = - . _
+       . "  \  \   /  /  " .
+     ,  \                 /  .
+   . \   _,.--~=~"~=~--.._   / .
+  ;  _.-"  / \ !   ! / \  "-._  .
+ / ,"     / ,` .---. `, \     ". \
+/.'   `~  |   /:::::\   |  ~`   '.\
+\`.  `~   |   \:::::/   | ~`  ~ .'/
+ \ `.  `~ \ `, `~~~' ,` /   ~`.' /
+  .  "-._  \ / !   ! \ /  _.-"  .
+   ./    "=~~.._  _..~~=`"    \.
+     ,/         ""          \,
+ LGB   . _/             \_ .
+          " - ./. .\. - "
+
+-->
 
 <body>
 
 <div id="overlay"></div>
 
 <div class="centermiddle">
-    <img src="img/eye.gif">
+    <img src="img/eye.gif" alt="Eye">
 </div>
 
-<div style="display: none">
-    <img id="secret" src="img/pigeon.jpg">
+<div id="credits" class="modal">
+    <div class="modal-content">
+        <p>Thanks you for visiting my website</p>
+        <p>Made by <a href="https://github.com/Heyimlulu" target="_blank">Heyimlulu 👋</a></p>
+        <img src="img/pigeon.jpg" alt="Pigeon bird">
+        <p>This window will close in <span class="seconds">20</span> seconds. </p>
+    </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="js/secret.js"></script>
 <script src="js/overlay.js"></script>
+<script src="js/konami.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1NN9Q5D2RD"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1NN9Q5D2RD');
+</script>
 
 </body>
 </html>
