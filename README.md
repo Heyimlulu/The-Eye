@@ -1,8 +1,8 @@
 # The-Eye
 
-A simple webpage displaying an eye looking at you :O (recreated from one of the fake website on [Welcome to the Game 2](https://store.steampowered.com/app/720250/Welcome_to_the_Game_II/))
+Simple webpage that display an eye looking at you :O (recreated from one of some many fake website on [Welcome to the Game 2](https://store.steampowered.com/app/720250/Welcome_to_the_Game_II/))
 
-I also added a small secret on the website after doing a combination of keys on your keyboard.
+There is also a secret on the webpage after doing a combination of keys on your keyboard.
 
 ## Languages used
 
