@@ -1,6 +1,6 @@
 # The-Eye
 
-Simple webpage that display an eye looking at you :O (recreated from one of some many fake website on [Welcome to the Game 2](https://store.steampowered.com/app/720250/Welcome_to_the_Game_II/))
+A simple webpage that displays an eye looking at you :O (recreated from one of some many fake websites on [Welcome to the Game 2](https://store.steampowered.com/app/720250/Welcome_to_the_Game_II/))
 
 There is also a secret on the webpage after doing a combination of keys on your keyboard.
 
@@ -26,4 +26,4 @@ There is also a secret on the webpage after doing a combination of keys on your 
 
 ## License
 
-Licensed under the [MIT License](https://github.com/Heyimlulu/The-Eye/blob/master/LICENSE). Click for more informations.
+Licensed under the [MIT License](https://github.com/Heyimlulu/The-Eye/blob/master/LICENSE). Click for more information.
