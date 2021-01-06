@@ -2,8 +2,6 @@
 
 A simple webpage that displays an eye looking at you :O (recreated from one of some many fake websites on [Welcome to the Game 2](https://store.steampowered.com/app/720250/Welcome_to_the_Game_II/))
 
-There is also a secret on the webpage after doing a combination of keys on your keyboard.
-
 ## Languages used
 
 - HTML
@@ -11,8 +9,6 @@ There is also a secret on the webpage after doing a combination of keys on your 
 - CSS
 
 - Javascript
-
-## No framework were use for this project
 
 ## Built with
 
